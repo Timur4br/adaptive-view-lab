@@ -1,0 +1,43 @@
+{
+  "seed": 20261107,
+  "mean_inputs": [
+    150.0,
+    113.57816691600547,
+    113.57816691600547
+  ],
+  "std_inputs": [
+    0.7,
+    0.5,
+    0.05
+  ],
+  "results": [
+    {
+      "correlation": -0.8,
+      "n": 100000,
+      "variance_mc": 1.6745318321318887,
+      "variance_linear": 1.6699857380577097,
+      "variance_without_cov": 0.9304069767441862,
+      "coverage_full": 0.94853,
+      "coverage_without_cov": 0.85536
+    },
+    {
+      "correlation": 0,
+      "n": 100000,
+      "variance_mc": 0.9377300779468788,
+      "variance_linear": 0.9304069767441859,
+      "variance_without_cov": 0.9304069767441862,
+      "coverage_full": 0.94886,
+      "coverage_without_cov": 0.94886
+    },
+    {
+      "correlation": 0.8,
+      "n": 100000,
+      "variance_mc": 0.19134888717056933,
+      "variance_linear": 0.19082821543066206,
+      "variance_without_cov": 0.9304069767441862,
+      "coverage_full": 0.94976,
+      "coverage_without_cov": 1.0
+    }
+  ],
+  "purpose": "implementation and local uncertainty propagation check, not a new mathematical result"
+}

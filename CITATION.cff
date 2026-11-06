@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "При использовании программного прототипа укажите автора, название и версию."
+title: "Ракурс Adaptive View Lab"
+type: software
+version: 0.1.0
+date-released: 2026-11-06
+authors:
+  - family-names: "Галаветдинов"
+    given-names: "Тимур"
+    affiliation: "Уральский государственный горный университет"
+abstract: "Исследовательский прототип выбора наблюдений для геометрического измерения при известных позах камер и общей неопределённости масштаба."
+keywords:
+  - active vision
+  - next best view
+  - measurement uncertainty
+  - photogrammetry

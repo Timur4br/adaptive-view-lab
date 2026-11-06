@@ -1,0 +1,84 @@
+{
+  "seed": 20261106,
+  "trials_per_scenario": 800,
+  "additional_actions": 8,
+  "initial_frames": 6,
+  "total_frame_budget": 14,
+  "strategies": [
+    "object_only",
+    "periodic_3",
+    "alternating",
+    "random",
+    "frozen_plan",
+    "adaptive",
+    "wide_only"
+  ],
+  "scenarios": {
+    "reference_weak": {
+      "object_span": 28,
+      "reference_span": 2,
+      "uL": 0.05,
+      "actual_noise": 0.7
+    },
+    "object_weak": {
+      "object_span": 2,
+      "reference_span": 28,
+      "uL": 0.05,
+      "actual_noise": 0.7
+    },
+    "balanced": {
+      "object_span": 28,
+      "reference_span": 28,
+      "uL": 0.05,
+      "actual_noise": 0.7
+    },
+    "reference_floor": {
+      "object_span": 28,
+      "reference_span": 2,
+      "uL": 1.0,
+      "actual_noise": 0.7
+    },
+    "noise_underestimated": {
+      "object_span": 28,
+      "reference_span": 2,
+      "uL": 0.05,
+      "actual_noise": 1.4
+    }
+  },
+  "points": [
+    [
+      -65.0,
+      -20.0,
+      -15.0
+    ],
+    [
+      65.0,
+      25.0,
+      45.0
+    ],
+    [
+      305.0,
+      65.0,
+      -20.0
+    ],
+    [
+      405.0,
+      85.0,
+      30.0
+    ]
+  ],
+  "focal_px": 1600.0,
+  "image_size": [
+    1280,
+    960
+  ],
+  "assumed_pixel_std": 0.7,
+  "known_camera_poses": true,
+  "estimator": "DLT initialization plus 4 Gauss Newton WLS iterations",
+  "uncertainty": "local conditional covariance from Jacobians plus independent reference length uncertainty",
+  "interval": "q_hat plus or minus 1.95996398454 times u, normal local approximation",
+  "allocation_cost": "one image action regardless of move time",
+  "visibility": "16 pixel image margin, both segment endpoints in front and inside frame",
+  "all_visible_segments_used": true,
+  "bootstrap_replicates": 3000
+}

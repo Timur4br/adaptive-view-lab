@@ -1,0 +1,7 @@
+{
+  "projection_jacobian_max_abs_difference": 3.475412491127372e-08,
+  "noiseless_length_error_mm": 5.684341886080802e-14,
+  "ground_truth_object_length_mm": 150.08331019803634,
+  "ground_truth_reference_length_mm": 113.57816691600547,
+  "initial_min_information_eigenvalue": 4.6751637504905
+}

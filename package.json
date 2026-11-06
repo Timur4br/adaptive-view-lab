@@ -1,0 +1,9 @@
+{
+  "name": "adaptive-view-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive known-pose geometric measurement and next-view planning research prototype",
+  "license": "UNLICENSED",
+  "scripts": { "test": "node --test tests/model.test.cjs", "preview": "node scripts/serve.cjs" },
+  "engines": { "node": ">=20" }
+}

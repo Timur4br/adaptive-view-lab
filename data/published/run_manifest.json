@@ -1,0 +1,28 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "elapsed_seconds": 103.83998894691467,
+  "trajectory_rows": 252000,
+  "nonfinite_results": 0,
+  "checks": {
+    "projection_jacobian_max_abs_difference": 3.475412491127372e-08,
+    "noiseless_length_error_mm": 5.684341886080802e-14,
+    "ground_truth_object_length_mm": 150.08331019803634,
+    "ground_truth_reference_length_mm": 113.57816691600547,
+    "initial_min_information_eigenvalue": 4.6751637504905
+  },
+  "source_sha256": "1bbf0d0d6c6ba6d3817cdf6f04ef281eb37be834bc8855a7bba5a9086c161e46",
+  "files": {
+    "checks.json": "a76425d3b5fec731f2756b65e393ff5cdd076668a6c236c52ecd9461be7cb603",
+    "observations_balanced.npz": "504ac2c43d000a4095ad35c728d94f836cfd9e4235499d2b97e84d240db88351",
+    "observations_noise_underestimated.npz": "2c699eb71ec6a0f46057f11dad5d7c35fab02ca7ca0375ab7b74e735156e5c72",
+    "observations_object_weak.npz": "19fb9a0f7ccd0643fb54c378905640966618de09161e140dc118c4673e1dfe62",
+    "observations_reference_floor.npz": "32b65cc1a8dec7087bd06abe2371d1d7ccfcaf1b09ef30e6f4cb6782603dd40e",
+    "observations_reference_weak.npz": "2ce7d92f9fd8ad8503c832daa7c4e1ac1d70b2328cb10f03c78cdcc8d7defc3c",
+    "paired_comparisons.json": "392c94a609444964734ff66ac655a72c90b4c2ab149f597040f737421763cc6b",
+    "settings.json": "b025e9550c87532cda1b4ead4f32e9644c5b33475e2e24b4de63c85a953cfb70",
+    "summary.csv": "076f3e4b6e68f8531f50e21790db111304e82c5bc292b6c701dea79a2d87c4b3",
+    "summary.json": "ce2c5d6e3af43efae9ef927543ea7e4934ebf572e00cd3f83545bb251d14d9d5",
+    "trajectories.csv": "590e84199c2d4e30a95f8719f6483efe9dd271bd5a2d4fc5703c5a8d576f52fa"
+  }
+}
